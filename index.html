@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ClientFace</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Titillium+Web:ital,wght@0,900;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/e2e823787a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-----Main----->
+        <section>
+            <nav class="nav-class">
+                <a href="index.html"><img src="images/CFlogo-2.png" /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#row">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="header"></div>
+            <div class="text-box">
+                <h1>Client Face</h1>
+                <p>Putting clients at the heart of your business</p>
+                <a href="" class="hero-btn">Visit us to know more</a>
+            </div>
+        </section>
+        <!--services-->
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p>some services</p>
+            <div class="row">
+                <div class="services-col">
+                    <h3>LALLALA</h3>
+                    <p>text goes here</p>
+                </div>
+                <div class="services-col">
+                    <h3>LALLALA</h3>
+                    <p>text goes here</p>
+                </div>
+                <div class="services-col">
+                    <h3>LALLALA</h3>
+                    <p>text goes here</p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="main">
+                <div class="about-text">
+                    <img src="images/CO headshot (2016_12_13 18_57_49 UTC).jpg" alt="">
+                    <div>
+                    <h5>Managing<span> Director</span><br>Claire Rowles</h5>
+                    <p>ClientFace is a leading client relationship management consultancy
+                        helping law firms and other professional service organisations put
+                        clients at the heart of their business. We bring together 25 years
+                        of hands-on experience from leading global firms across a broad
+                        range of client sectors.<br><br>
+                        
+                        Working closely with our clients, we help them to develop client
+                        strategies, best practice client relationship management
+                        frameworks and the skills to invest in long-term, profitable client
+                        relationships.<br><br>
+                        
+                        We ultimately help our clients to win more profitable work.</p>
+                        <a href="" class="hero-btn red-btn">CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonials-->
+        <section class="testimonials">
+            <h1>What our Clients Say</h1>
+            <p>Insert text here</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" />
+                    <div>
+                        <p>this is my test</p>
+                        <h3>instert name</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" />
+                    <div>
+                        <p>this is my test</p>
+                        <h3>instert name</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--call to action-->
+         <section class="cta">
+            <h1>Putting clients at the heart of your business</h1>
+            <a href="" class="hero-btn">Contact Us</a>
+        </section>   
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>insert text here</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made By <i class="fa-brands fa-linkedin"></i> Connor Aim</p>
+        </section>
+
+        <!--JavaScript For Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
