@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Client Face</title>
+        <link rel="stylesheet" href="contact.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Titillium+Web:ital,wght@0,900;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/e2e823787a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-----Main----->
+        <section>
+            <nav class="nav-class">
+                <a href="index.html"></a>
+                <img src="images/CFlogo-2.png"/>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Who We Are</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="casestudies.html">Case Studies</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+            </div>
+        </section>
+        <!--contact Form-->
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>17 Lake Walk,<br>Banbury,<br>Oxfordshire,<br>OX17 3PF</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+44 (0) 7720 842631</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>claire@clientface.co.uk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea type="text" name="" required="required"></textarea>
+                            <span>Type Your Message...</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+       <!--call to action-->
+         <section class="cta">
+            <h1>Putting clients at the heart of your business</h1>
+            <a href="" class="hero-btn">Contact Us</a>
+        </section>   
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>insert text here</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made By <i class="fa-brands fa-linkedin"></i> Connor Aim</p>
+        </section>
+
+        <!--JavaScript For Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

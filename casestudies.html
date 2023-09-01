@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Client Face</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Titillium+Web:ital,wght@0,900;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/e2e823787a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-----Main----->
+        <section>
+            <nav class="nav-class">
+                <a href="index.html"></a>
+                <img src="images/CFlogo-2.png"/>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Who We Are</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="casestudies.html">Case Studies</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <!--services-->
+        <section class="services">
+            <h1>Case Studies</h1>
+            <div class="row">
+                <div class="services-col">
+                    <h3>Commissioned
+                        Client Feedback
+                        Projects</h3>
+                    <p>Our law firm client wanted to streamline
+                        their sector approach, as part of a strategic
+                        planning review. We worked closely with the
+                        Project Sponsor to capture client insight on a
+                        number of criteria, including perception and
+                        positioning, competitor activity, sector
+                        insight, relationship management and value
+                        and visibility of Client Partners.<br><br>
+                        
+                        We worked through all stages of the project
+                        from setting objectives, designing question
+                        templates, Client Partner de-briefs, carrying
+                        out face-to-face and telephone reviews with
+                        30+ strategic clients.<br><br>
+                        
+                        <b>Client feedback:</b> <i>“Two years later, we are still
+                        using the feedback findings from the research
+                        project, to drive change through our
+                        business.”</i> <b>BD Director</b></p>
+                </div>
+                <div class="services-col">
+                    <h3>Client Listening
+                        Manager Services</h3>
+                    <p>Over a six-month period, we worked with a group of Client
+                        Relationship Partners on a series of client review meetings
+                        for key clients. This included preparing for the reviews;
+                        creating review summary reports; agreeing agendas with
+                        the client; preparing the Client Partner for the review,
+                        attending reviews as the Client Relationship Manager and
+                        managing follow up actions with the in-house client team
+                        and the client.<br><br>
+                        
+                        <b>Client feedback:</b> <i>“It helped to have an experienced Client
+                        Relationship Manager supporting each step of the review
+                        process. Our client appreciated the thought and
+                        consideration that had gone into the meeting and our
+                        suggestions and solutions on how to best manage their
+                        in-house legal resources.”</i> <b>Client Relationship Partner</b></p>
+                </div>
+                <div class="services-col">
+                    <h3>Client Feedback Framework Consultancy</h3>
+                    <p>We have worked on over 15+ client feedback
+                        consultancy projects over the past 10 years.
+                        Working alongside this high- end niche law
+                        firm, was one that really stands out for us.
+                        We worked closely with the Director of
+                        Marketing and Client Relationship Manager,
+                        to create an Independent Client Review
+                        approach, focused on service delivery and
+                        future legal requirement for the firm’s top
+                        100 clients. Together we created toolkits,
+                        question templates, post review reports and
+                        hosted an Independent client review skills
+                        workshop for the in-house team carrying out
+                        independent reviews.<br><br>
+                        
+                        <b>Client feedback:</b> <i>“This project was an
+                        important part of creating an established,
+                        firm-wide approach to Independent Client
+                        Reviews. We are constantly updating our
+                        business model and services around the
+                        changing needs of our clients.”</i> <b>Director of
+                        Marketing</b></p>
+                </div>
+                <div class="services-col">
+                    <h3>Skills workshops for lawyers</h3>
+                    <p>We ran a series of Associate skills workshops for a top
+                        niche law firm in the tech sector, covering the practical
+                        skills required to manage client relationships and support
+                        Client Relationship Partners. The sessions included using
+                        client listening skills and techniques, how to draft client-led
+                        plans and how to prepare for “stand-out” client
+                        relationship meetings. The interactive workshops also
+                        looked at how to manage ongoing actions across the client
+                        team and how to manage opportunities to win more work,
+                        using team exercises and case studies.<br><br>
+                        
+                        <b>Client feedback:</b> <i>“A big thank you for the plotting and
+                        planning and delivery the Workshops: the challenge of
+                        remote delivery is not lost on any of us, you did very well!”</i>
+                        <b>Chief Marketing Officer</b><br><br>
+                        
+                        <i>“You did a sterling job - The engagement level was great
+                        thanks to your facilitation and models – the lawyers were
+                        really energised and starting to explore your ideas in the
+                        breakouts and coming up with some tangible actions”.</i>
+                        <b>Head of Professional Development</b></p>
+                </div>
+            </div>
+        </section>
+         <!--call to action-->
+         <section class="cta">
+            <h1>Putting clients at the heart of your business</h1>
+            <a href="contactus.html" class="hero-btn">Contact Us</a>
+        </section>   
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>insert text here</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made By <i class="fa-brands fa-linkedin"></i> Connor Aim</p>
+        </section>
+
+        <!--JavaScript For Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

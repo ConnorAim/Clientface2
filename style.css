@@ -6,7 +6,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.274)),url(images/test1-1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,7 +41,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #072cff5e;
+    background: #5dc6eb;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -64,13 +64,13 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color: #000000;
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #31215d;
+    border: 1px solid #5dc6eb;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -78,8 +78,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #072cff5e;
-    background: #072cff5e;
+    border: 1px solid #5dc6eb;
+    background: #5dc6eb;
     transition: 1s;
 }
 nav .fa-solid{
@@ -95,7 +95,7 @@ nav .fa-solid{
     }
     .nav-links{
         position: absolute;
-        background: #072cff5e;
+        background: #5dc6eb;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -116,12 +116,39 @@ nav .fa-solid{
     }
 }
 /* --- services --- */
-
+.services p{
+    color:#000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.services2 ul li{
+    color:#000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    list-style-position: inside;
+}
+.services ul li{
+    color:#000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    list-style-position: inside;
+}
 .services{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+.services2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 h1{
     font-size: 36px;
@@ -129,7 +156,7 @@ h1{
 }
 
 p{
-    color:#777;
+    color:#000000;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -139,10 +166,17 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+}
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 .services-col{
     flex-basis: 31%;
-    background: #2600ff1c;
+    background: #5dc5eb75;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -174,7 +208,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #2600ff1c;
+    background: #5dc5eb75;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -193,10 +227,10 @@ h3{
     text-align: left;
 }
 .testimonial-col .fa-solid{
-    color: #072cff5e;
+    color: #31215d;
 }
 .testimonial-col .fa-regular{
-    color: #072cff5e;
+    color: #31215d;
 }
 @media(max-width: 700px){
     .testimonial-col img{
@@ -208,7 +242,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/hunters-race-MYbhN8KaaEc-unsplash.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.788),rgba(255, 255, 255, 0.658)),url(images/test1-1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -217,7 +251,7 @@ h3{
 }
 
 .cta h1{
-    color: #fff;
+    color: #000000;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -239,7 +273,7 @@ h3{
     font-weight: 600;
 }
 .icons .fa-brands{
-    color: #072cff5e;
+    color: #31215d;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -260,6 +294,7 @@ h3{
 .about{
     width: 100%;
     padding: 78px 0px;
+    background: linear-gradient(rgba(247, 247, 247, 0.726),rgba(146, 146, 146, 0.034));
 }
 .about img{
     height: 30vh;
@@ -299,10 +334,10 @@ span{
     
 }
 .red-btn{
-    margin-left: 270px;
-    border: 1px solid #072cff5e;
+    margin-left: 220px;
+    border: 1px solid #5dc6eb;
     background: transparent;
-    color: #072cff5e;
+    color: #31215d;
 }
 .red-btn:hover{
     color: #ffffff;
@@ -310,3 +345,4 @@ span{
 .nav-bg {
     background-color: #fff;
 }
+/* --- Contact --- */
